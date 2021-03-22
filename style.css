@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    font-family: 'Chango', cursive;
+    background-color: rgba(201, 195, 195, 0.822);
+}
+header{
+    font-size: 300%;
+    margin: 25px;
+}
+input,button{
+    background-color: rgba(112, 112, 112, 0.822);
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}
+a{
+    color: black;
+}
+a:hover{
+    font-size: x-large;
+    color: white;
+}
+
+#movieCards img {
+    transition-property: transform;
+    transition-duration: 300ms;
+}
+
+#movieCards img:hover{
+    filter: none;
+    transform: scale(1.1);
+}
+
+#movieCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 80vw;
+    margin-left: 10%;
+}
